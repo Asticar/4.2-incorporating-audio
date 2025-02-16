@@ -1,0 +1,59 @@
+/*Creates a border around all HTML elements on the page*/
+html {
+    
+     width: 1000px;
+     margin: 50px auto;
+     border: 15px solid rgb(252, 247, 0); /* width, style, colour */
+     
+}
+/*Stylizes the body*/
+body{
+    /*Changes font family*/
+    font-family: Helvetica;
+    /*Changes font size*/
+    font-size: 30px;
+    /*Changes the background to a different color*/
+    background-color:rgb(0, 61, 117);
+    /*Aligns all the text to the center*/
+    text-align: center;
+    /* Changes the text color to an off-white*/
+    color:whitesmoke;
+    /* Makes a bit of a shadow around the text to help with reading the off-white text*/
+    text-shadow:
+    0 0 5px black,
+    0 0 10px black,
+    0 0 20px black;
+    /* This block adds in a PNG into the background in the top right of the page, and if the user would need to scroll down, the image should follow.*/
+    background-image: url("Formsheet.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: scroll;
+}
+/*Changes the color of the text for the first name, last name, zipcode, and login status.*/
+firstname{
+    color:rgb(252, 247, 0);
+}
+lastname{
+    color:rgb(252, 247, 0);
+}
+zipcode{
+    color:rgb(252, 247, 0);
+}
+loginstatus{
+   
+    color:rgb(0, 252, 84);
+    
+}
+/*Stylizing the button by giving it a background, a new font, borders, and padding*/
+button
+{
+    background-color: beige;
+    font-style:oblique;
+    font-family: Courier;
+    font-size: 25px;
+    width: 175px;
+    border-style:dashed;
+    border-radius: 25px;
+    padding: 15px;
+}

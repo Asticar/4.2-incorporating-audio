@@ -1,0 +1,38 @@
+<!-- Dadrian Cudo (Dade)-->
+<!-- I'm not really sure why 4.2 wouldnt just want me to make a new file either...but oh well! I just edited the name for organizations sake.-->
+ <!-- Beyond the name changes, sound addition, and some edits to the CSS file, these files should be the same as the 3.2 file-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    <script src = "4.2incorporate audio.js"></script>
+    <link rel="stylesheet" href="4.2incorporate audio.css">
+    
+    
+    <title> User Input </title>
+</head>
+<body>
+     
+    <h1> Login when ready! </h1>
+    <!-- Creates an id for the status of the login-->
+    
+    <loginstatus> <p id = "loginStatus">Status of login...</p> </loginstatus>
+    <br>
+    <!-- Creates some buttons to play/stop music-->
+    
+    <button onclick = "play();"> Listen to music! </button>
+    <button onclick = "stop();"> Stop the music!</button>
+    <br><br>
+    <!-- creates inputs for the user to type into-->
+    <form id = "infoSubmit" onsubmit = "return false">
+    <firstname>   First Name: <input type = "text" id = "fName"/> </firstname> <br> <br>
+    <lastname>   Last Name: <input type = "text" id = "lName"/> </lastname> <br> <br>
+    <zipcode>    Zip Code: <input type = "number" id = "zipCode"/> </zipcode> <br> <br>
+    <!-- makes a submit box for the user to click to see if they've input their info correctly -->
+        <input type = "submit" onclick = "checkInfo();"> 
+    </form>
+
+
+</body>
+</html>	
